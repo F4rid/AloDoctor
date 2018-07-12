@@ -9,4 +9,3 @@ Enjoy 😍
 ![alt text](http://s8.picofile.com/file/8331029492/3.png)
 
 ![alt text](http://s8.picofile.com/file/8331029518/4.png)
-# AloDoctor
