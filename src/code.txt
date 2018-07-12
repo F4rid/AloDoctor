@@ -1,0 +1,36 @@
+let user = new User('farid', 'master', '09366011410', '5580108265', DB.Hash('123456'));
+User.save(user);
+alert('ok');
+
+let dataList = UserService.all();
+let data = JSON.stringify(dataList);
+alert(data);
+
+UserService.destroy(phoneNumber);
+
+AsyncStorage.getItem('ACCESS_TOKEN', (error, result) => {
+    alert(result)
+});
+
+=========================================
+import Overlay from 'react-native-modal-overlay';
+
+{/* <Button
+    onPress={() => {
+        this.setModalVisible(true);
+    }}>
+    <Text>Show Modal</Text>
+</Button> */}
+
+<Overlay visible={this.state.modalVisible}
+            closeOnTouchOutside animationType="fadeIn"
+            containerStyle={{backgroundColor: 'rgba(0, 0, 0, 0.3)'}}
+            childrenWrapperStyle={{backgroundColor: '#eee'}}
+            animationDuration={500}
+            onClose={() => this.setModalVisible(false)}>
+
+        <Text>Some Modal Content</Text>
+
+</Overlay>
+=============================================
+fontMaker({ weight: 'SemiBold', style: 'Italic' })
